@@ -1,0 +1,36 @@
+.jumbotron{
+  text-align: center;
+}
+.a{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzkdw20UvQBrB-GjadJE3LXje6K91V3pYaKguuUAQkOIwAmqc7tw);
+  padding-bottom: 1000px;
+  color: white;
+}
+body{
+  background-image: url(https://i.pinimg.com/originals/a9/e5/0a/a9e50ad84c996646762cd7c8a8d7eb18.jpg);
+}
+#numbers{
+  text-align: center;
+}
+#pipo{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+ol{
+  text-align: center;
+}
+.c{
+  list-style-position: inside;
+  list-style-type: lower-alpha;
+}
+.d{
+  text-align: left;
+}
+h3{
+  text-align: center;
+}
+.e{
+  text-align: center;
+}
