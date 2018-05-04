@@ -1,30 +1,21 @@
-//Business logic
-var myPingPong = function(number){
-
-  if (number % 15 ===0) {
-  $("#numbers").append("<li>pingpong</li>");
+function pingpong(startPoint) {
+ if ((startPoint % 3 === 0 && startPoint % 5 === 0)) {
+   return ('pingpong');
+ } else if (startPoint % 5 === 0) {
+   return ('pong');
+ } else if (startPoint % 3 === 0) {
+   return ('ping');
+ } else {
+   return startPoint;
+ }
 }
-
-else if (number % 5 === 0){
-  $("#numbers").append("<li>pong</li>");
-}
-
- else if (number % 3 === 0) {
-  $("#numbers").append("<li>ping</li>");
-}
-
- else {
-   $("#numbers").append(number);
-}
-};
-//User Interface
-$(document).ready(function(){
-  $("form#pipo").submit(function(event){
-    event.preventDefault();
-    var number = parseInt($("input#number").val());
-    var result = myPingPong(number);
-
-
-    $("#result").show();
-  });
+$(document).ready(function() {
+ $('#submit').click(function(event) {
+   var userNumber = parseInt($('input#number').val());
+   event.preventDefault();
+   $('ul.numbersList').empty();
+   for (var startPoint = 1; startPoint <= userNumber; startPoint += 1) {
+     $('ul.numbersList').append('<li>' + pingpong(startPoint) + '</li>');
+   }
+ });
 });

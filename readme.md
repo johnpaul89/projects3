@@ -1,6 +1,5 @@
 # Ping Pong Game.
 #### Created By JohnPaul Gitata
-#### By **{List of contributors}**
 ## Description of PingPong Game
 This game is about increasing your multiplication skills, by solving numbers which are divisible by 3 and 5. By playing the game you will be able to write numbers which are divisible by 3 and get a ping for that,, numbers divisible by 5 you get a pong for that and a number divisible by 15 you get a pingpong for that.
 ## PingPong Setup
