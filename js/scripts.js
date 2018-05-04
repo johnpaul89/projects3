@@ -1,15 +1,19 @@
-//business logic
+//Business logic
 var myPingPong = function(number){
-  var output = []
+
   if (number % 15 ===0) {
   $("#numbers").append("<li>pingpong</li>");
 }
+
 else if (number % 5 === 0){
   $("#numbers").append("<li>pong</li>");
-}else if (number % 3 === 0) {
+}
+
+ else if (number % 3 === 0) {
   $("#numbers").append("<li>ping</li>");
 }
-else {
+
+ else {
    $("#numbers").append(number);
 }
 };

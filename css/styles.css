@@ -1,5 +1,9 @@
+.container{
+
+}
 .jumbotron{
   text-align: center;
+  background-color: greenyellow;
 }
 .a{
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzkdw20UvQBrB-GjadJE3LXje6K91V3pYaKguuUAQkOIwAmqc7tw);
@@ -11,19 +15,23 @@ body{
 }
 #numbers{
   text-align: center;
+  font-size: 20px;
+  list-style-type: disc;
 }
 #pipo{
   text-align: center;
 }
 p{
   text-align: center;
+  font-size: 22px;
 }
 ol{
   text-align: center;
+  font-size: 17px;
 }
 .c{
   list-style-position: inside;
-  list-style-type: lower-alpha;
+  list-style-type: lower-roman;
 }
 .d{
   text-align: left;
@@ -33,4 +41,8 @@ h3{
 }
 .e{
   text-align: center;
+  color: darkred;
+}
+span{
+  color: red;
 }
